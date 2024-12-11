@@ -1,0 +1,8 @@
+profile        = "pranay"
+region         = "us-east-1"
+app_port       = 5000
+fargate_memory = "2048"
+fargate_cpu    = "1024"
+app_image      = "pranay1717/flask-login:latest"
+az_count       = 2
+secret_id      = "defaultdb/login"
